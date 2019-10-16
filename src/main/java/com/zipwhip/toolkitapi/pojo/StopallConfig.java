@@ -10,6 +10,10 @@ public class StopallConfig {
 
     private String blockedPhone;
     private String testPhone;
+    private String baseUrl;
+    private String authorizationHeader;
+    private String blockedPhonePass;
+    private String testPhonePass;
 
     public static StopallConfig create(String env) {
         ObjectMapper map = new ObjectMapper();
@@ -37,5 +41,37 @@ public class StopallConfig {
 
     public void setTestPhone(String testPhone) {
         this.testPhone = testPhone;
+    }
+
+    public String getBaseUrl() {
+        return baseUrl;
+    }
+
+    public void setBaseUrl(String baseUrl) {
+        this.baseUrl = baseUrl;
+    }
+
+    public String getAuthorizationHeader() {
+        return authorizationHeader;
+    }
+
+    public void setAuthorizationHeader(String authorizationHeader) {
+        this.authorizationHeader = authorizationHeader;
+    }
+
+    public String getBlockedPhonePass() {
+        return blockedPhonePass;
+    }
+
+    public void setBlockedPhonePass(String blockedPhonePass) {
+        this.blockedPhonePass = blockedPhonePass;
+    }
+
+    public String getTestPhonePass() {
+        return testPhonePass;
+    }
+
+    public void setTestPhonePass(String testPhonePass) {
+        this.testPhonePass = testPhonePass;
     }
 }

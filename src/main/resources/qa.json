@@ -1,0 +1,9 @@
+{
+  "blockedPhone" : "5035751683",
+  "blockedPhonePass" : "zipwhip313",
+  "testPhone" : "5035751686",
+  "testPhonePass" : "zipwhip313",
+  "baseUrl" : "https://app.zwfoundry-qa.us-west-2.aws.zwqa.io",
+  "stopAllEnabledPhone" : "",
+  "stopAllEnabledPhonePass" : ""
+}

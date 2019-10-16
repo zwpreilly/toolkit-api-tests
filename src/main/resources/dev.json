@@ -1,4 +1,5 @@
 {
   "blockedPhone" : "18005550100",
-  "testPhone" : "18005550101"
+  "testPhone" : "18005550101",
+  "baseUrl" : "https://app.zwfoundry-dev.us-west-2.aws.zwdevelopment.io"
 }
